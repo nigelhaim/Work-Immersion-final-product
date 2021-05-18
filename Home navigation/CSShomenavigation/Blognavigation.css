@@ -1,0 +1,87 @@
+@Viewpoint{
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewpoint {
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+
+.headtitle {
+  font-family: 'Inconsolata', monospace;
+  border-bottom: 3px solid white;
+  padding-bottom: 10px;
+  width: 100%;
+  position: relative;
+  padding-left:0;
+  top: 20%;
+}
+.headtitle p  {
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+
+}
+
+.Blognavigation
+{
+ padding: 0px;
+  margin: 0px;
+  border: 0px;
+  height: 50px;
+  text-orientation: horizontal;
+  text-decoration: none;
+  position:relative;
+  top: 50%; 
+  left: 15%;
+    font-size: 30px;
+  font-family: 'Inconsolata', monospace;
+  background-color: #0f0f0f;
+  width: 100%;
+  text-align: center;
+
+  padding-bottom: 100px;
+  text-shadow: 0px 0px 20px black;
+  display: flex;
+
+
+
+}
+
+.blognav
+{
+
+  position: relative;
+  top: 20%;
+  margin: 100px;
+  padding: 60px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+
+
+}
+
+a.blognav:link {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  top: 5px;
+  color: #fff;
+  padding-right: 2px;
+  text-shadow: 0px 0px 10px black;
+  display: flex;
+
+}
+a.blognav:visited { 
+ text-decoration: none; 
+ color: #fff; 
+}
+a.blognav:hover {
+ text-decoration: none;
+ color: #F56105;
+}
+

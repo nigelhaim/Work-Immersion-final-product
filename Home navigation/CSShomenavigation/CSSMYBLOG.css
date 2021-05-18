@@ -1,0 +1,206 @@
+@Viewpoint{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+
+@-ms-viewpoint {
+	width: extend-to-zoom;
+	zoom: 1.0;
+}
+body {
+	height: 100vh;
+	background-color:#0f0f0f; 
+	color: white;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 100%;
+	position: relative;
+	left: -10px;
+}
+
+section {
+	position: relative; 
+	top: 5px;
+	padding: 100px;
+	padding-top: 50px;
+}
+.title1 {
+	
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	text-shadow: 70px 70px #F56105;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: -50px;
+	display: flex;
+	border-bottom: 3px solid white;
+	padding-bottom:  10%;
+
+
+}
+.title1 img{
+	width: 50%;
+	height: 252.50659630607px;
+	padding-left: 15%;
+	padding-right: 10%;
+	position: relative;
+	top: 50%;
+	border-right: 10px solid white;
+}
+.title1 p {
+	text-shadow: -8px 10px 5px #242424; 
+	font-family: 'Inconsolata', monospace;
+	font-weight: 600;
+	font-size: 100px;
+	position: relative;
+	top: 30%;
+	padding-left: 7%;
+}
+.title1 p:Hover {
+	
+	font-family: 'Inconsolata', monospace;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 100px;
+	position: relative;
+	color:  #00d582;
+}
+
+.blogcollection {
+	position: relative;
+	left: 1%;
+	padding-top: 40px;
+	}
+.blogcollection img {
+	position: relative;
+	padding: 0;
+	padding-top: 80px;
+	padding-bottom: 70px;
+	width: 400px;
+	height: 400px;
+	border-right: 2px solid #00d582;
+	padding-right: 100px;
+
+
+}
+
+
+
+
+
+.article {
+	display: flex;
+	padding-bottom: 100px;
+}
+
+.article p {
+	position: relative;
+	top: 20px;
+	left: 30px;
+	font-family: 'Inconsolata', monospace;
+	font-size: 20px;
+
+}
+
+.article h1 {
+	position: relative;
+	left: 30px;
+	text-transform: capitalize;
+
+}
+.article h1:Hover {
+	position: relative;
+	left: 30px;
+	font-style: italic;
+	text-transform: uppercase;
+
+}
+
+
+
+footer {
+	width: 100%;
+	position: relative;
+}
+
+.info a {
+	text-decoration: none;
+		position: relative;
+	top: 20px;
+	left: 30px;
+	font-family: 'Inconsolata', monospace;
+	font-size: 20px;
+	color: #00d582;
+}
+
+.info a:link{
+	text-decoration: none;
+		position: relative;
+	top: 20px;
+	left: 30px;
+	font-family: 'Inconsolata', monospace;
+	font-size: 20px;
+	color: #00d582;
+}
+
+.info a:hover {
+	text-decoration: none;
+	font-weight: 600;
+	color: #F56105;
+}
+
+#clockrt {
+	width: 100%; 
+	position: relative;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	text-decoration-color: solid white;
+	font-family: 'Inconsolata', monospace;
+	margin-top: auto;
+	padding: 0;
+	
+}
+
+
+@media (max-width: 768px) {
+	.article {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.blogcollection img {
+	border-right: 0px;
+	padding-bottom: 0;
+	border-bottom: 2px solid #00d582;
+	padding-bottom: 100px;
+
+
+}
+	.title1 img{
+	width: 0%;
+	height: 0;
+}
+
+	.navcontainer {
+		position: fixed;
+		left: 0px;
+	}
+
+
+		.title1{
+			position: relative;
+			left: -15%;
+			width: 100%;	
+			border-bottom: 0;
+}
+
+.article{
+	justify-content: center;
+}
+
+}
+}

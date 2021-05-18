@@ -1,0 +1,94 @@
+@Viewpoint{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+
+@-ms-viewpoint {
+	width: extend-to-zoom;
+	zoom: 1.0;
+
+}
+
+body {
+	height: 100vh;
+	background-color: #0f0f0f; 
+	padding: 0;
+	overflow-x: hidden;
+	width: 100%;
+	position: relative;
+	left: -10px;
+}
+
+article {
+	position: relative;
+	left: 5%;
+}
+.Articletitle {
+		  position: relative;
+	  padding-top: 20px;
+	  left: 5%;
+
+}
+
+.Articletitle h1 {
+	  font-family: 'Inconsolata', monospace;
+	  color: #00d582;
+	  font-size: 30px;
+
+}
+
+.Articletitle h1:Hover {
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+
+.Articletitle img {
+	height: 50vh;
+	width: 80%;
+	box-shadow: -10px 20px 30px 5px #00d582;
+}
+
+.Articletitle h3 {
+	  font-family: 'Inconsolata', monospace;
+	  color: #00d582;
+	  font-size: 20px;
+	  padding-bottom: 30px;
+}
+
+.Articletitle h3:Hover {
+	  font-family: 'Inconsolata', monospace;
+	  color: #F56105;
+	  font-size: 20px;
+}
+
+.mainpharagraph {
+	font-size: 15px;
+	font-color: white;
+	width: 75%;
+	position: relative;
+	top: 25px;
+}
+
+.mainpharagraph p {
+	font-size: 21px;
+	font-color: #ededed;
+	width: 115%;
+	color: white;
+	align-content: center;
+	position: relative;
+	left: 5%;
+
+}
+
+@media (max-width: 768px) {
+	.Blognavigation {
+		display: flex;
+		flex-direction: column;
+	}
+
+	article {
+		position: relative;
+		top: 300px;
+	}
+}

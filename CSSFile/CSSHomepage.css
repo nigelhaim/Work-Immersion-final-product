@@ -1,0 +1,245 @@
+@Viewpoint{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+
+@-ms-viewpoint {
+	width: extend-to-zoom;
+	zoom: 1.0;
+}
+
+html {
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+
+body {
+	background-color: #282828;
+	padding: 0px;
+	margin: 0px;
+	perspective: 0px;
+	height: 100vh;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	min-height: 100vh;
+	
+
+
+}
+header {
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-size: cover;
+  background-position: -60;
+  background-image: brightness(20%);
+  background-size: 100%;
+  width: 100%;
+  background-blend-mode: darken;
+  text-decoration: none;
+  height: 740px;
+  margin: 0px;
+}
+
+header
+	{
+		box-sizing: border-box;
+		min-height: 100vh;
+		padding: 1px;
+		position: relative;
+		transform-style: inherit;
+		width: 100vw;
+	}
+header, header:before {
+	background: 50% 50% / cover;
+}
+header::before {
+	content: "";
+	left: 0;
+	position: absolute;
+	background-image: url("/project/Work Immersion final product/Images/background1.jpg");
+	right: 0;
+	 background-blend-mode: darken;
+	   background-image: brightness(20%);
+	top: 0;
+	display: block;
+	background-size: cover;
+	transform-origin: center center 0;
+	transform: translateZ(-1px) scale(2);
+	min-height: 100vh;
+
+}
+
+p.title {
+	font-family: 'Inconsolata', monospace;
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+}
+
+
+
+
+.navigation {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	height: 60px;
+	color: #F56105;
+	text-orientation: horizontal;
+  text-decoration: none;
+  text-decoration-color:#F56105;
+  position:relative;
+  top: 8%;
+
+  text-shadow: 0px 0px 10px black;
+
+
+}
+
+a.mainnavigation:link{
+  text-decoration: none;
+  display: inline-block;
+  margin: 30px;
+  color: #000000;
+  background-color: #F56105;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0px 0px 40px #F56105;
+  text-shadow: #F56105;
+  height: 100px;
+
+
+
+}
+a.mainnavigation:visited { 
+ text-decoration: none; 
+ color: #000000; 
+ background-color: #F56105;
+}
+a.mainnavigation:hover {
+ text-decoration: none;
+ background-color: transparent;
+ color: #F56105;
+
+
+}
+
+
+
+/* This is used in removing the marker of a visited site */
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px;
+  display: block;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+
+/* Used to organize my navigaiton bar */
+
+
+  
+
+.blogsection {
+	height: 600px;
+	width: 100%;
+	position: relative;
+	top: 1%;
+	text-decoration: none;
+	background-image: url("/project/Work Immersion final product/Images/Blogsectionbg.png");
+	text-shadow: 10px 10px 10px 10px #000000;
+}
+
+}
+
+a.Blogsectionl {
+	position: relative;
+	top: 45%;
+	color: #00d582;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	font-weight: bolder;
+	font-size: 70px;
+	margin-top: 30px;
+	text-decoration: none;
+	display: block;
+	text-shadow: 10px 10px 5px 5px #000000;
+	font-weight: bolder;
+}
+a.Blogsectionl:link {
+	position: relative;
+	top: 45%;
+	color: #00d582;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	font-weight: bolder;
+	font-size: 70px;
+	margin-top: 30px;
+	text-decoration: none;
+	display: block;
+	text-shadow: 10px 10px 5px 5px #000000;
+	font-weight: bolder;
+}
+
+a.Blogsectionl:visited {
+position: relative;
+	top: 45%;
+	color: #00d582;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	font-weight: bolder;
+	font-size: 70px;
+	margin-top: 30px;
+	text-decoration: none;
+	display: block;
+	text-shadow: 10px 10px 5px 5px #000000;
+	font-weight: bolder;
+}
+
+a.Blogsectionl:hover {
+position: relative;
+	top: 45%;
+	color: #F56105;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	font-weight: bolder;
+	font-size: 70px;
+	margin-top: 30px;
+	text-decoration: none;
+	display: block;
+	text-shadow: 10px 10px 5px 5px #000000;
+	font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+	body {
+		background-color: #000;
+	}	
+	.blogsection {
+		position: relative;
+		top: -480px;
+
+	}
+	.navigation {
+		position: relative;
+		top: 2px;
+	}
+
+	footer {
+		position: relative;
+		top: -300px;
+		height: 1%;
+	}
+
+	.title1 p {
+		position: relative;
+		left: -100%;
+	}
+}

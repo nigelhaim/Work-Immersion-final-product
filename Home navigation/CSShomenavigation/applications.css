@@ -1,0 +1,251 @@
+@Viewpoint{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+
+@-ms-viewpoint {
+	width: extend-to-zoom;
+	zoom: 1.0;
+}
+body {
+	background-color: #282828;
+	overflow-x: hidden; 	
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+}
+
+header {
+	background-image: url("/project/Work Immersion final product/Images/Applications_Skillsimg/Headerbackground3.jpg");
+	  padding: 0;
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-size: cover;
+  background-position: -60;
+  background-image: brightness(20%);
+  background-size: 100%;
+  width: 100%;
+  background-blend-mode: darken;
+  text-decoration: none;
+  height: 655px;
+  margin: 0px;
+  box-shadow: 10px 10px 10px 10px black;
+
+}
+
+.header3pictop img {
+	width: 100px;
+	height: 58.823529411765px;
+	position: relative;
+	top: 100px;
+	left: 35.8%;
+	z-index: 60;
+
+
+}
+
+.headerbotpic img {
+	width: 250px;
+	height: 147.05882352941px;
+	position: relative;
+	top: 420px;
+	left: 38%;
+	z-index: 40;
+
+		
+}
+section {padding: 20px;}
+.logobg {
+
+	position: relative;
+	box-shadow: 10px 10px 10px 10px black;
+
+}
+
+.logobg img {
+	width: 25%;
+	height: 200px;
+	z-index: 2;
+	position: relative;
+	top: 1px;
+	border: 0;
+	background: none;
+
+}
+
+.textbackground img {
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 1px;
+	z-index: 1;
+}
+
+.mainlogo img {
+	position: absolute;
+	z-index: 3;
+	top: 2px;
+	left: -40px;
+	width: 340px;
+	height: 200px;
+	padding: 0;
+}
+
+.mainlogo img:hover {
+	width: 350px;
+	height:205.88235294118px;
+	transition: all 0.3s ease;
+
+}
+
+section p {
+	z-index: 5;
+	position: absolute;
+	width: 70%;
+	height: 60px;
+	left: 25%;
+	top: 5px;
+	font-weight: bold;
+	font-family: 'Inconsolata', monospace;
+	font-size: 25px;
+}
+
+.otherskills {
+	background-color: #292826;
+	width: 90%;
+	height: 600px; 
+	padding: 10px;
+	box-shadow: 10px 5px 15px 5px black;
+	position: relative;
+	left: 5%;
+	
+}
+
+.skills h1{
+	font-family: 'Inconsolata', monospace;
+	color: white;
+
+}
+
+.skills li {
+	margin: 20px 0;
+} 
+
+.bar {
+	background: #353b48;
+	display: block;
+	height: 5px;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius: 2px;
+	overflow: hidden;
+	box-shadow: 0 0 11px #00d582;
+}
+
+.bar span {
+	height: 4px;
+	float: left;
+	background: #F56105;
+
+}
+
+.webd {
+	width: 25%;
+}
+
+.vidE {
+	width:60%;
+}
+
+.fx {
+	width: 25%;
+}
+
+.phtoE {
+	width: 70%;
+}
+
+.guitar {
+	width:80%;
+}
+
+.compcust {
+	width:50%;
+}
+
+.photoE {
+	width: 65%
+}
+
+.nav-toggle {
+	opacity: 0;
+}
+
+
+@media (max-width: 768px) {
+
+	header {
+		background-size: cover;
+		background-position: 45%;
+
+	}
+
+	.header3pictop img {
+	width: 100px;
+	height: 58.823529411765px;
+	position: relative;
+	top: 70px;
+	left: 27.8%;
+	z-index: 60;
+
+
+}
+
+.headerbotpic img {
+	width: 250px;
+	height: 147.05882352941px;
+	position: relative;
+	top: 390px;
+	left: 30%;
+	z-index: 40;
+
+		
+}
+	p.Photoshop {
+		font-size: 20px;
+		left: 25%;
+	}
+
+	p.Afterfectss {
+		font-size: 20px;
+		left: 25%;
+	}
+
+	p.HTMLCSSJS {
+		font-size: 20px;
+		left: 25%;
+	}
+
+	p.PPro {
+		font-size: 20px;
+		left: 25%;
+	}
+	.mainlogo img{
+		left: -30px;
+		top: 40px;
+		width: 200px;
+		height: 117.64705882353px;
+
+	}
+
+		.mainlogo img:hover{
+		left: -50px;
+		top: 40px;
+		width: 210px;
+		height: 123.52941176471px;
+
+	}
+.nav-toggle {
+	opacity: 1;
+}
+}

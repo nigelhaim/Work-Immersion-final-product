@@ -1,0 +1,67 @@
+@Viewpoint{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+
+@-ms-viewpoint {
+	width: extend-to-zoom;
+	zoom: 1.0;
+}
+
+body {
+   background-image: url("/project/Work Immersion final product/Home navigation/Mediajournal/Background_1.gif");
+  background-size: 100% 100%;
+  overflow-x: hidden;
+}
+.header {
+	margin: 0px;
+
+}
+
+
+
+.Content
+{
+  position: relative;
+  top: 100px;
+ 
+	width: 100%;
+	height: 1000px;
+	text-decoration-color: white;
+	
+}
+
+p.mainjournal {
+	
+	font-size: 20px;
+	text-decoration-color: white;
+	color: #ffffff;
+	font-family: 'Inconsolata', monospace;
+	font-weight: bold;
+	background-color: #2b2c28; 
+  border-width: 100px;
+  border-color: white;
+  border: outset;
+  padding: 30px;
+  width: 650px;
+  position: relative;
+  left: 28%;
+}
+
+
+@media (max-width: 768px) {
+	body {
+		overflow-x: hidden;
+	}
+ p.mainjournal {
+ 	position: relative;
+ 	width: 100%;
+ 	margin-left: 0;
+ 	border-width: 0;
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  left: 0;
+  top:-11%;
+ }
+}
