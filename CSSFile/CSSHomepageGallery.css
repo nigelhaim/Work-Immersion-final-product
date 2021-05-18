@@ -84,15 +84,15 @@ a.gallerytitle: visited{
 	font-color: #00d582;
 }
 @keyframes slider {
-	0% {background-image: url('/project/Work Immersion final product/Images/Gallery_Home/Paintover our apartment.jpg');}
+	0% {background-image: url('/Work-Immersion-final-product/Images/Gallery_Home/Paintover our apartment.jpg');}
 
-	25% {background-image: url('/project/Work Immersion final product/Images/Gallery_Home/20200227_165440.png');}
+	25% {background-image: url('/Work-Immersion-final-product/Images/Gallery_Home/20200227_165440.png');}
 
-	50% {background-image: url('/project/Work Immersion final product/Images/Gallery_Home/PSX_20180913_204525.jpg');}	
+	50% {background-image: url('/Work-Immersion-final-product/Images/Gallery_Home/PSX_20180913_204525.jpg');}	
 	
-	75% {background-image: url('/project/Work Immersion final product/Images/Gallery_Home/PSX_20180910_183520.jpg');}
+	75% {background-image: url('/Work-Immersion-final-product/Images/Gallery_Home/PSX_20180910_183520.jpg');}
 
-	100% {background-image: url('/project/Work Immersion final product/Images/Gallery_Home/PSX_20181218_185205.jpg');}
+	100% {background-image: url('/Work-Immersion-final-product/Images/Gallery_Home/PSX_20181218_185205.jpg');}
 }
 
 

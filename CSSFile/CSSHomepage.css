@@ -58,7 +58,7 @@ header::before {
 	content: "";
 	left: 0;
 	position: absolute;
-	background-image: url("/project/Work Immersion final product/Images/background1.jpg");
+	background-image: url("/Work-Immersion-final-product/Images/background1.jpg");
 	right: 0;
 	 background-blend-mode: darken;
 	   background-image: brightness(20%);
@@ -153,7 +153,7 @@ ul {
 	position: relative;
 	top: 1%;
 	text-decoration: none;
-	background-image: url("/project/Work Immersion final product/Images/Blogsectionbg.png");
+	background-image: url("/Work-Immersion-final-product/Images/Blogsectionbg.png");
 	text-shadow: 10px 10px 10px 10px #000000;
 }
 
