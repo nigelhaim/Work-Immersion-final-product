@@ -1,13 +1,24 @@
+@Viewpoint{
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
 
 @-ms-viewpoint {
 	width: extend-to-zoom;
 	zoom: 1.0;
 }
 
+
+
+html {
+	overflow: auto;
+	height: 100%;
+}
+
 body {
 	background-color: #282828;
 	overflow-x: hidden; 
-	overflow-y: scroll;	
+	overflow-y: visible 	;	
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -21,7 +32,7 @@ header {
   background-position: relative;
   background-size: cover;
   background-position: -60;
-  background-image: brightness(20%);
+  background-image: brightness(15%);
   background-size: 100%;
   width: 100%;
   background-blend-mode: darken;
@@ -47,13 +58,13 @@ header {
 	width: 250px;
 	height: 147.05882352941px;
 	position: relative;
-	top: 420px;
+	top: 415px;
 	left: 38%;
 	z-index: 40;
 
 		
 }
-section {padding: 20px;}
+section {padding: 15px;}
 .logobg {
 
 	position: relative;
@@ -63,7 +74,7 @@ section {padding: 20px;}
 
 .logobg img {
 	width: 25%;
-	height: 200px;
+	height: 150px;
 	z-index: 2;
 	position: relative;
 	top: 1px;
@@ -74,7 +85,7 @@ section {padding: 20px;}
 
 .textbackground img {
 	width: 100%;
-	height: 200px;
+	height: 150px;
 	position: absolute;
 	top: 1px;
 	z-index: 1;
@@ -84,15 +95,15 @@ section {padding: 20px;}
 	position: absolute;
 	z-index: 3;
 	top: 2px;
-	left: -40px;
-	width: 340px;
-	height: 200px;
+	left: -10px;
+	width: 270px;
+	height: 150px;
 	padding: 0;
 }
 
 .mainlogo img:hover {
 	width: 350px;
-	height:205.88235294118px;
+	height:155.88235294118px;
 	transition: all 0.3s ease;
 
 }
@@ -127,7 +138,7 @@ section p {
 }
 
 .skills li {
-	margin: 20px 0;
+	margin: 15px 0;
 } 
 
 .bar {
@@ -186,7 +197,7 @@ section p {
 		background-size: cover;
 		background-position: 45%;
 
-	}
+}
 
 	.header3pictop img {
 	width: 100px;
@@ -199,6 +210,8 @@ section p {
 
 }
 
+
+
 .headerbotpic img {
 	width: 250px;
 	height: 147.05882352941px;
@@ -210,26 +223,26 @@ section p {
 		
 }
 	p.Photoshop {
-		font-size: 20px;
+		font-size: 15px;
 		left: 25%;
 	}
 
 	p.Afterfectss {
-		font-size: 20px;
+		font-size: 15px;
 		left: 25%;
 	}
 
 	p.HTMLCSSJS {
-		font-size: 20px;
+		font-size: 15px;
 		left: 25%;
 	}
 
 	p.PPro {
-		font-size: 20px;
+		font-size: 15px;
 		left: 25%;
 	}
 	.mainlogo img{
-		left: -30px;
+		left: -40px;
 		top: 40px;
 		width: 200px;
 		height: 117.64705882353px;
