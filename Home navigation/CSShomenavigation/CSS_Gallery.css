@@ -442,6 +442,10 @@ footer {
 	section {
 		max-width: 768px;
 	}
+	.pictures img {
+		width: 90%;
+		height: auto;
+	}
 
 	.links {
 		display: flex;
@@ -589,5 +593,6 @@ footer {
 .card5 .back {
 	position: absolute;
 	left: 13%;
+}
 }
 }
