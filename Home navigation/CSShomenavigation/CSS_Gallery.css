@@ -577,8 +577,8 @@ footer {
 .card .back {
 	position: absolute;
 	left: 5%;
-	width: 90%;
-	height: 40vh;
+	width: 85%;
+	height: 30vh;
 }
 
 .card .back h2 {
@@ -590,26 +590,26 @@ footer {
 .card2 .back {
 	position: absolute;
 	left: 5%;
-	width: 90%;
-	height: 40vh;
+	width: 85%;
+	height: 30vh;
 }
 .card3 .back {
 	position: absolute;
 	left: 5%;
-	width: 90%;
-	height: 40vh;
+	width: 85%;
+	height: 30vh;
 }
 .card4 .back {
 	position: absolute;
 	left: 5%;
-	width: 90%;
-	height: 40vh;
+	width: 85%;
+	height: 30vh;
 }
 
 .card5 .back {
 	position: absolute;
 	left: 5%;
-	width: 90%;
-	height: 40vh;
+	width: 85%;
+	height: 30vh;
 }
 }
