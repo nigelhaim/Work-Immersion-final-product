@@ -447,6 +447,7 @@ footer {
 		height: auto;
 	}
 
+
 	.links {
 		display: flex;
 		flex-direction: column;
@@ -464,6 +465,7 @@ footer {
 	flex-direction: column;
 	left: 0%;
 	}
+
 
 	.pics2 {
 				display: flex;
@@ -574,25 +576,40 @@ footer {
 
 .card .back {
 	position: absolute;
-	left: 13%;
+	left: 5%;
+	width: 90%;
+	height: 40vh;
+}
+
+.card .back h2 {
+	position: absolute;
+	top:40%;
+	justify-content: center;
 }
 
 .card2 .back {
 	position: absolute;
-	left: 13%;
+	left: 5%;
+	width: 90%;
+	height: 40vh;
 }
 .card3 .back {
 	position: absolute;
-	left: 13%;
+	left: 5%;
+	width: 90%;
+	height: 40vh;
 }
 .card4 .back {
 	position: absolute;
-	left: 13%;
+	left: 5%;
+	width: 90%;
+	height: 40vh;
 }
 
 .card5 .back {
 	position: absolute;
-	left: 13%;
-}
+	left: 5%;
+	width: 90%;
+	height: 40vh;
 }
 }
