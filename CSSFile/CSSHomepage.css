@@ -1,12 +1,4 @@
-@Viewpoint{
-	zoom: 1.0;
-	width: extend-to-zoom;
-}
 
-@-ms-viewpoint {
-	width: extend-to-zoom;
-	zoom: 1.0;
-}
 
 html {
 	height: 100%;
@@ -218,7 +210,7 @@ position: relative;
 	font-weight: bolder;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 	body {
 		background-color: #000;
 	}	
