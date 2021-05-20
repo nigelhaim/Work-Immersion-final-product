@@ -138,7 +138,7 @@ section p {
 }
 
 .skills li {
-	margin: 15px 0;
+	margin: 30px 0;
 } 
 
 .bar {
@@ -279,4 +279,8 @@ p.Photoshop {
 .nav-toggle {
 	opacity: 1;
 }
+
+.skills li {
+	margin: 30px 0;
+} 
 }
