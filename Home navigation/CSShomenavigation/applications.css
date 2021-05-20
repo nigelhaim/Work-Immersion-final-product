@@ -190,6 +190,26 @@ section p {
 	opacity: 0;
 }
 
+p.Photoshop {
+		font-size: 25px;
+		left: 25%;
+	}
+
+	p.Afterfectss {
+		font-size: 25px;
+		left: 25%;
+	}
+
+	p.HTMLCSSJS {
+		font-size: 25px;
+		left: 25%;
+	}
+
+	p.PPro {
+		font-size: 25px;
+		left: 25%;
+	}
+
 
 @media (max-width: 768px) {
 
