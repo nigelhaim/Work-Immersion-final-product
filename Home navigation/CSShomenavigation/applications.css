@@ -224,7 +224,7 @@ p.Photoshop {
 	height: 58.823529411765px;
 	position: relative;
 	top: 70px;
-	left: 27.8%;
+	left: 5%;
 	z-index: 60;
 
 
@@ -235,37 +235,37 @@ p.Photoshop {
 .headerbotpic img {
 	width: 250px;
 	height: 147.05882352941px;
-	position: relative;
-	top: 390px;
-	left: 30%;
+	position: absolute;
+	top: 470px;
+	left: 50px;
 	z-index: 40;
 
 		
 }
 	p.Photoshop {
-		font-size: 10px;
+		font-size: 12px;
 		left: 25%;
 	}
 
 	p.Afterfectss {
-		font-size: 10px;
+		font-size: 12px;
 		left: 25%;
 	}
 
 	p.HTMLCSSJS {
-		font-size: 10px;
+		font-size: 12px;
 		left: 25%;
 	}
 
 	p.PPro {
-		font-size: 10px;
+		font-size: 12px;
 		left: 25%;
 	}
 	.mainlogo img{
-		left: -40px;
+		left: 0%;
 		top: 40px;
-		width: 200px;
-		height: 117.64705882353px;
+		width: 100px;
+		height: 58.823529411765px;
 
 	}
 
