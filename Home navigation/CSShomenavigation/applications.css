@@ -117,7 +117,7 @@ section p {
 	top: 5px;
 	font-weight: bold;
 	font-family: 'Inconsolata', monospace;
-	font-size: 5px;
+	font-size: 25px;
 }
 
 .otherskills {
@@ -223,22 +223,22 @@ section p {
 		
 }
 	p.Photoshop {
-		font-size: 15px;
+		font-size: 10px;
 		left: 25%;
 	}
 
 	p.Afterfectss {
-		font-size: 15px;
+		font-size: 10px;
 		left: 25%;
 	}
 
 	p.HTMLCSSJS {
-		font-size: 15px;
+		font-size: 10px;
 		left: 25%;
 	}
 
 	p.PPro {
-		font-size: 15px;
+		font-size: 10px;
 		left: 25%;
 	}
 	.mainlogo img{
