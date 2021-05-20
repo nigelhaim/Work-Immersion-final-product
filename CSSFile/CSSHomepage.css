@@ -50,7 +50,7 @@ header::before {
 	content: "";
 	left: 0;
 	position: absolute;
-	background-image: url("/work-Immersion-final-product/Images/BackgroundHomefinal.gif");
+	background-image: url("/Work-Immersion-final-product/Images/BackgroundHomefinal.gif");
 	right: 0;
 	 background-blend-mode: darken;
 	   background-image: brightness(20%);
