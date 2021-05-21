@@ -84,16 +84,18 @@ section {
 
 .pictures img {
 	max-width: 100%;
+	height: auto;
 }
 
 .videosection img {
 	max-width: 100%;
-}
-.links {
-	display: flex;
-
+	height: auto;
 }
 
+.back {
+	max-width: 100%;
+	height: auto;
+}
 
 .pics1 {
 	position: relative;
