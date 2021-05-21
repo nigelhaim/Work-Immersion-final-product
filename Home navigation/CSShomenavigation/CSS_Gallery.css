@@ -81,6 +81,14 @@ section {
 	top: 50px;
 	width: 80%;
 }
+
+.pictures img {
+	max-width: 100%;
+}
+
+.videosection img {
+	max-width: 100%;
+}
 .links {
 	display: flex;
 
