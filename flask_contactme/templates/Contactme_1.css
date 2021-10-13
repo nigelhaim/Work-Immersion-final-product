@@ -189,6 +189,8 @@ section p {
 	color: rgb(29, 29, 29);
 	cursor: pointer;
 	text-transform: uppercase;
+	position: relative;
+	bottom: 1px;
 
 	
 }
@@ -205,6 +207,7 @@ section p {
 	.contact ul{
 		display: flex;
 		flex-direction: column;
+		left: 50%;
 	}
 	.contact-form
 	{
@@ -217,5 +220,13 @@ section p {
 	.input-fields, .msg
 	{
 		width: 100%;
+	}
+	.form-form
+	{
+		position: center;
+		top: 80%;
+		left: 1%;
+		width: 100%;
+
 	}
 }
