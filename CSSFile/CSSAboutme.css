@@ -212,7 +212,6 @@ z-index: 100;
 	top: calc(20% - 2rem);	
 
 }
-
 section .container {
 	display: block;
 	grid-template-columns: repeat(2, 1fr);
