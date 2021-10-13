@@ -113,6 +113,7 @@ section p {
 	position: relative;
 	left: 10%;
 	top: 200px;
+	height: 80%;;
 }
 :placeholder-shown
 {
@@ -194,6 +195,29 @@ section p {
 
 	
 }
+.Main_msg
+{
+	resize: none;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #282828;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #F56105;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #f58d05;
+  }
 
 
 @media (max-width: 768px) {
@@ -215,7 +239,7 @@ section p {
 	}
 	.msg textarea
 	{
-		height: 80px;
+		height: 200px;
 	}
 	.input-fields, .msg
 	{
@@ -229,4 +253,5 @@ section p {
 		width: 100%;
 
 	}
+
 }
