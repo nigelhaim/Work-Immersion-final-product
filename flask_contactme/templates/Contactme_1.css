@@ -8,7 +8,7 @@
 	zoom: 1.0;
 }
 body {
-	background-image: url("/Work-Immersion-final-product/Images/contactmebg2.jpg");
+	background-image: url("https://nigelhaim.github.io/Work-Immersion-final-product/Images/contactmebg2.jpg");
 	min-width: 100%;
 	background-size: cover;
 	overflow-x: hidden;
@@ -21,7 +21,7 @@ body {
 
 .contact {
 	position: relative;
-	top: 300px;
+	top: 355px;
 	width: 100%;
 	height: 200px;
 	justify-content: center;
@@ -29,12 +29,12 @@ body {
 
 section ul {
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 30%;
+	left: 30%;
 	transform: translate(-50%, -50%);
 	margin: 0;
 	padding: 0;
-	display: flex;
+	display: block;
 }
 
 section ul li {
@@ -108,6 +108,91 @@ section p {
 	left: 20%;
 	text-shadow: 2px 2px 5px 5px #000;
 }
+.form-form 
+{
+	position: relative;
+	left: 10%;
+	top: 200px;
+}
+:placeholder-shown
+{
+	font-size: larger;
+	font-family: consolas;
+}
+.Form_1 
+{
+	position: absolute;
+	transform: translateY(-50%);
+	width: 100%;
+	padding: 0 20px;
+}
+.contact-form 
+{
+	max-width: 550px;
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 8);
+	border-radius: 5px;
+	display: flex;
+	box-shadow: 0 0 10px rgba(0, 0,0, 0.13);
+
+}
+.input-fields
+{
+	display: flex;
+	flex-direction: column;
+	margin-right: 8%;
+}
+
+.input-fields, .msg
+{
+	width: 100%;
+}
+.input-fields, .input, .msg textarea{
+	margin: 10px 0;
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid #F56105;
+	padding: 10px;
+	color: #f58d05;
+	width: 100%;
+}
+.msg textarea{
+	height: 112px;
+	border-right: 5px;
+	border-color: #000;
+	width: 100%;
+}
+
+::-webkit-input-placeholder
+{
+	color: #F56105;
+}
+
+::-moz-input-placeholder
+{
+	color: #F56105;
+}
+
+::-ms-input-placeholder
+{
+	color: #F56105;
+}
+
+
+
+.btn 
+{
+	background: #F56105;
+	text-align: center;
+	padding: 15px;
+	border-radius: 5px;
+	color: rgb(29, 29, 29);
+	cursor: pointer;
+	text-transform: uppercase;
+
+	
+}
+
 
 @media (max-width: 768px) {
 	body {
@@ -115,9 +200,22 @@ section p {
 		height: 125vh;
 		background-position: 50%;
 		justify-content: center;
+		display: block;
 	}
 	.contact ul{
 		display: flex;
 		flex-direction: column;
+	}
+	.contact-form
+	{
+		flex-direction: column;
+	}
+	.msg textarea
+	{
+		height: 80px;
+	}
+	.input-fields, .msg
+	{
+		width: 100%;
 	}
 }
