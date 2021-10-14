@@ -83,21 +83,23 @@
 
 
 </section>
-<div class="form-form">
-	<div class="Form_1">
-		<div class="contact-form">
-			<div class="input-fields">
-				<input type="text" class="input" placeholder="First Name" size="70">
-				<input type="text" class="input" placeholder="Last Name" size="70">
-				<input type="text" class="input" placeholder="Email Address" size="70">
-			</div>
-			<div class="msg">
-				<textarea placeholder="Message" size="70" width= "80" class="Main_msg"></textarea>
-				<div class="btn">Send</div>
+<form action="/form" method="POST">
+	<div class="form-form">
+		<div class="Form_1">
+			<div class="contact-form">
+				<div class="input-fields">
+					<input type="text" class="input" placeholder="First Name" size="70" name="First_name">
+					<input type="text" class="input" placeholder="Last Name" size="70" name="Last_name">
+					<input type="text" class="input" placeholder="Email Address" size="70" name="Email">
+				</div>
+				<div class="msg">
+					<textarea placeholder="Message" size="70" width= "80" class="Main_msg" name="msg"></textarea>
+					<div class="btn">Send</div>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</form>
 <script src="https://nigelhaim.github.io/Work-Immersion-final-product/JSFile/topnav.js"></script>
 </body>
 </html>
