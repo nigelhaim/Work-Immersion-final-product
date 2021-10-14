@@ -148,20 +148,19 @@ section p {
 {
 	width: 100%;
 }
-.input-fields, .input, .msg textarea{
+.input-fields, .input, textarea{
 	margin: 10px 0;
 	background: transparent;
 	border: 0;
 	border-bottom: 2px solid #F56105;
 	padding: 10px;
 	color: #f58d05;
-	width: 100%;
 }
-.msg textarea{
+.Main_msg textarea{
 	height: 112px;
-	border-right: 5px;
+	border-right: 1px;
 	border-color: #000;
-	width: 100%;
+	width: 10%;
 }
 
 ::-webkit-input-placeholder
@@ -192,6 +191,7 @@ section p {
 	text-transform: uppercase;
 	position: relative;
 	bottom: 1px;
+	width: 100%;
 
 	
 }
