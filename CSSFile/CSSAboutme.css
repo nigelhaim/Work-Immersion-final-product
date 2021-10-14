@@ -173,7 +173,24 @@ z-index: 100;
   padding-left: 150px;
   text-indent: left;
 }
-
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #282828;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #F56105;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #f58d05;
+  }
 @media (max-width: 768px) {
 	section.container {
 		grid-template-columns: 1fr;
@@ -217,4 +234,6 @@ section .container {
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	justify-content: center;
-	min-height: 100vh;
+	min-height: 100px;
+
+}

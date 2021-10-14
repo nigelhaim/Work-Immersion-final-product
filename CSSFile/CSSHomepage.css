@@ -149,7 +149,7 @@ ul {
 	text-shadow: 10px 10px 10px 10px #000000;
 }
 
-}
+
 
 a.Blogsectionl {
 	position: relative;
@@ -209,6 +209,26 @@ position: relative;
 	text-shadow: 10px 10px 5px 5px #000000;
 	font-weight: bolder;
 }
+
+
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #282828;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #F56105;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #f58d05;
+  }
 
 @media only screen and (max-width: 768px) {
 	body {

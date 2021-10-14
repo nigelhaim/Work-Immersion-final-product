@@ -155,12 +155,7 @@ section p {
 	border-bottom: 2px solid #F56105;
 	padding: 10px;
 	color: #f58d05;
-}
-.Main_msg textarea{
-	height: 112px;
-	border-right: 1px;
-	border-color: #000;
-	width: 10%;
+	resize: none;
 }
 
 ::-webkit-input-placeholder
@@ -194,10 +189,6 @@ section p {
 	width: 100%;
 
 	
-}
-.Main_msg
-{
-	resize: none;
 }
 
 ::-webkit-scrollbar {
@@ -239,7 +230,10 @@ section p {
 	}
 	.msg textarea
 	{
-		height: 200px;
+		height: 100px;
+		resize: none;
+		max-width: 100%;
+		max-height: 100%;
 	}
 	.input-fields, .msg
 	{
@@ -247,10 +241,10 @@ section p {
 	}
 	.form-form
 	{
-		position: center;
-		top: 80%;
+		position: relative;
 		left: 1%;
 		width: 100%;
+		top: 100%;
 
 	}
 

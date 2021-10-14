@@ -109,6 +109,26 @@ section p {
 	text-shadow: 2px 2px 5px 5px #000;
 }
 
+
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #282828;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #F56105;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #f58d05;
+  }
+
 @media (max-width: 768px) {
 	body {
 		background-size: cover;
