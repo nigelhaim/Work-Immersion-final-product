@@ -1,12 +1,14 @@
 from flask import Flask, render_template, request
 import smtplib #Import smtp library
+from dotenv import load_dotenv
 import os
+load_dotenv()
 
 
 app = Flask(__name__)
-e_user = os.environ.get('ENCYPT_USER')
-e_pass = os.environ.get('ENCRYPT_PASS')
-to_user = os.environ.get('TO_USER')
+e_user = os.getenv('ENCYPT_USER')
+e_pass = os.getenv('ENCRYPT_PASS')
+to_user = os.getenv('TO_USER')
 
 @app.route('/')
 def main():
