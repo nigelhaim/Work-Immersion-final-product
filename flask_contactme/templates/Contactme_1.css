@@ -144,11 +144,14 @@ section p {
 	margin-right: 8%;
 }
 
-.input-fields, .msg
+
+
+.input-fields
+
 {
 	width: 100%;
 }
-.input-fields, .input, textarea{
+.input-fields, .input{
 	margin: 10px 0;
 	background: transparent;
 	border: 0;
@@ -228,14 +231,8 @@ section p {
 	{
 		flex-direction: column;
 	}
-	.msg textarea
-	{
-		height: 100px;
-		resize: none;
-		max-width: 100%;
-		max-height: 100%;
-	}
-	.input-fields, .msg
+	.input-fields
+
 	{
 		width: 100%;
 	}
