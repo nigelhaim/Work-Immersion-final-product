@@ -25,7 +25,7 @@ def form():
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
     server.login(e_user, e_pass)
-    server.sendmail(e_user, to_user, ("New message!\n" + "From: " + firstname + " " + lastname + "\n"+ "Email:" + email + "\n" + "Message:\n" + "\n" + mess ))
+    server.sendmail(e_user, to_user, ("New message!\n" + "From: " + firstname + " " + lastname + "\n"+ "Email: " + email + "\n" + "Message:\n" + "\n" + mess ))
     
     title ="Thank you!"
     return render_template("Submission.html", title = title)
