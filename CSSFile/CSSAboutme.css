@@ -192,22 +192,22 @@ z-index: 100;
 	background: #f58d05;
   }
 @media (max-width: 768px) {
-	section.container {
+section.container {
 		grid-template-columns: 1fr;
 	}
 
-	.InterpicMain{
+.InterpicMain{
 		width: 150%;
 	}
-	.Interpic2 {
+.Interpic2 {
 		width: 150%;
 	}
-	.Interpic3 {
+.Interpic3 {
 		width: 150%;
 	}
-	.shadow {
+.shadow {
 	position: absolute;
-	bottom: 80%;
+	bottom: 60%;
 	height: 10px;
 	width: 100%;
 	z-index: 0;
@@ -222,18 +222,36 @@ z-index: 100;
 }
 	
 
-	.big-title {
+.big-title {
 	position: absolute;
 	z-index: 30;
 	line-height: 4rem;
 	top: calc(20% - 2rem);	
 
 }
-section .container {
+section .container 
+{
 	display: block;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	justify-content: center;
 	min-height: 100px;
 
+}
+
+p
+{
+		font-size: 24px;
+		width: 95%;
+}
+.imageimage
+{
+	opacity: 0%;
+	width: 0px;
+	height: 0px;
+}
+.shadow
+{
+	opacity: 0%;
+}
 }
